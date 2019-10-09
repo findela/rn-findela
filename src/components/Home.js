@@ -49,7 +49,7 @@ class Home extends Component {
                     borderTopLeftRadius: 40,
                     borderTopRightRadius: 40,
                     paddingTop: 10,
-                    top: -50,
+                    top: -60,
                     height: '100%',
                     backgroundColor: '#FFFFFF'
                 }}>
