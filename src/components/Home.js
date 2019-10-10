@@ -123,11 +123,12 @@ class Home extends Component {
                                         (l.onlineFlag) ?
                                         <ListItem
                                             key={i}
-                                            subtitleStyle={[{color: '#717171'}, (l.messageFlag) ? {
-                                                fontWeight: 'bold',
-                                                color: '#F64037'
-                                            } : '']}
-                                            containerStyle={[{borderRadius: 30}, (l.messageFlag) ? {backgroundColor: '#FFF'} : '']}
+                                            subtitleStyle={
+                                                [{color: '#717171'}, (l.messageFlag) ? { fontWeight: 'bold', color: '#F64037'} : '']
+                                            }
+                                            containerStyle={
+                                                [{borderRadius: 30}, (l.messageFlag) ? {backgroundColor: '#FFF'} : '']
+                                            }
                                             rightSubtitle={l.lastMessage}
                                             rightSubtitleStyle={{position: 'relative', right: -15}}
                                             leftAvatar={{source: {uri: l.avatar_url}}}
