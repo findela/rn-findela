@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, ScrollView, SafeAreaView} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import TopNavigation from './TopNavigation'
+import TopNavigation from '../components/TopNavigation'
 import { ListItem,SearchBar,Button } from 'react-native-elements';
 
 class Message extends Component {
