@@ -8,5 +8,4 @@ let config = {
     messagingSenderId: "204813952420",
 };
 let app = Firebase.initializeApp(config);
-const db = app.database().ref('/');
-export default db;
+export const db = app.database();
