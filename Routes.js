@@ -7,7 +7,7 @@ import Auth from './src/screens/Authentication.js';
 
 const Routes = () => (
     <Router>
-        <Scene key="root" hideNavBar={true}>
+        <Scene key="root" duration={0} hideNavBar={true}>
             <Scene key = "home" component = {Home} />
             <Scene key = "splash" component = {Splash} initial = {true} />
             <Scene key = "message" component = {Message}/>
